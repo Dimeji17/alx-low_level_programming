@@ -1,10 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 /*
- * code to print '-putchar'
- * return 0 if successful
+ * main entry point
+ * return 0
  */
-int main();
+ 
+int main(void)
 {
-	printf("_putchar");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('n\');
+
 	return (0);
 }
