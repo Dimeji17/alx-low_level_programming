@@ -1,15 +1,16 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdio.h>
 
-/** 
-*function to calculate the produt of two numbers
-* a is the first number
-* b is the second number
-**/
-int product(int a, int b)
+/**
+* mul - function that multiplies two integers
+* @a: First integer
+* @b: Second integer
+* Return: mul.
+*/
+int mul(int a, int b)
 {
-    int p;
-    
-    p = a * b;
-return (0);
+	int x;
+
+	x = a * b;
+return (x);
 }
