@@ -3,7 +3,7 @@
 /**
  *puts2 - print pair values.
  *@str: value to be evaluate.
- *Return : retuns nothing 
+ *Return: not.
  */
 void puts2(char *str)
 {
@@ -25,4 +25,5 @@ void puts2(char *str)
 			putchar(str[z]);
 		}
 	}
+	putchar('\n');
 }
