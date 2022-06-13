@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
 * swap_int - swaps the value of two numbers
 * @a: is the first variable
@@ -12,6 +11,6 @@ void swap_int(int *a, int *b)
 	int hold;
 
 	hold = *a;
-	*b = *a;
+	*a = *b;
 	*b = hold;
 }
