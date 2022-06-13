@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * swap_int - swaps the value of two numbers
 * @a: is the first variable
