@@ -1,8 +1,8 @@
-#include "main.h"
+#include "holberton.h"
 /**
-* to take a polnter to an int
-* *and return )
-* function can ve called anytime
+* reset_to_98 -a function that takes a pointer to an int
+* n is the pointer
+* Return: (0)
 */
 void reset_to_98(int *n)
 {
