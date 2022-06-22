@@ -1,19 +1,13 @@
-#include <stdio.h>
-
-void reverse(char *s);
-
-int main ()
-{
-   char a[] = "hello man";
-   reverse(a);
-   return(0);
-}
-
-void reverse(char *s)
+#include "main.h"
+/** _print_rev_recursion : reverse characters lf a string
+* @*s : pointer to the string
+* returns nothing;
+*/
+void _print_rev_recursion(char *s)
 {
     if (*s )
     {
-        reverse(s+1);
-        printf("%c", *s);
+        _print_rev_recursion(s+1);
+        _putchar(*s);
     }
 }
