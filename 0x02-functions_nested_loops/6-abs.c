@@ -6,19 +6,9 @@
  * Return:0 or 1
  */
 
-int _abs(int c)
-{   
-    
-    int negate;
+int _abs(int n)
+{
 
-    if (c >= 0)
-    {
-        return(c);
-    }
-    else if (c < 0)
-    {
-        negate = (c * (-1));
-        return(negate);
-    }
-    return(0);
+return (n >= 0 ? n : n * -1);
+
 }
